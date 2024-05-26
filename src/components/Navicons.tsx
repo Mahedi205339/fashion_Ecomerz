@@ -52,7 +52,7 @@ const NavIcons = () => {
             </div>
             {
                 isCartOpen && (
-                    <div className='absolute p-4 rounded-md top-1/2 text-sm left-0 shadow-neutral-200 shadow-lg z-20 border'>
+                    <div className='absolute p-4 rounded-md top-1/2 text-sm right-0 shadow-neutral-200 shadow-lg z-20 border'>
                         <CartModal/>
                         
                     </div>
