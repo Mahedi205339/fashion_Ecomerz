@@ -3,6 +3,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
 import React, { useState } from 'react';
+import CartModal from './CartModal';
 
 const NavIcons = () => {
 
@@ -52,7 +53,7 @@ const NavIcons = () => {
             {
                 isCartOpen && (
                     <div className='absolute p-4 rounded-md top-1/2 text-sm left-0 shadow-neutral-200 shadow-lg z-20 border'>
-                        Cart Open
+                        <CartModal/>
                         
                     </div>
                 )
