@@ -79,15 +79,15 @@ const Slider = () => {
             </div>
             {/* IMAGE CONTAINER */}
             <div className="h-1/2 xl:w-1/2 xl:h-full relative">
-              <div className='h-full w-10/12'>
+             
                 <Image
                   src={slide?.img}
                   alt=""
                   fill
                   sizes="100%"
-                  className="object-fill scale-110"
+                  className="object-fill"
                 />
-              </div>
+        
             </div>
           </div>
         ))}

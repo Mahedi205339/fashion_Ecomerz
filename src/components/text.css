@@ -1,0 +1,6 @@
+.text_color{
+    color: transparent;
+    background-image: linear-gradient(to right, #fc65d3, #f68d43); /* adjust colors as needed */
+    -webkit-background-clip: text;
+    background-clip: text;
+}

@@ -4,6 +4,7 @@ import Menu from './Menu';
 import Image from 'next/image';
 import SearchBar from './SearchBar';
 import NavIcons from './Navicons';
+import "./text.css"
 
 const Navbar = () => {
     return (
@@ -23,7 +24,11 @@ const Navbar = () => {
                 {/* LEFT SIDE */}
                 <div className='w-1/3 xl:w-1/2 flex items-center gap-12'>
                     <Link className='flex items-center gap-3' href="/">
-                        <Image src="/logo.png" alt='' width={24} height={24}/>
+                        <div className='flex flow-row gap-2 items-center'>
+                             <Image src="/logo.png" alt='' width={24} height={24}/>
+                             <h2 className='text-xl text_color font-semibold'> M.Fashion</h2>
+                        </div>
+                       
                     </Link>
                     <div className='hidden xl:flex gap-4'>
                     <Link href="" >Home</Link>
