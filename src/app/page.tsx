@@ -1,4 +1,4 @@
-import Slider from "@/components/slider"
+import Slider from "@/components/Slider"
 
 const HomePage = () => {
   return (
