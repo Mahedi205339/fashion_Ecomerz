@@ -13,8 +13,8 @@ const Navbar = () => {
             <div className='flex items-center justify-between md:hidden'>
                 {/* MOBILE */}
                 <Link href="/">
-                    <div  className='text-2xl tracking-wide'>
-                        M.FAS   
+                    <div  className='text-2xl tracking-wide text_color '>
+                        M.Fashion  
                     </div>
                 </Link>
                 <Menu />
