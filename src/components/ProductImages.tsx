@@ -24,6 +24,7 @@ const images = [
 const ProductImages = () => {
 
     const [index, setIndex] = useState(0)
+    // console.log(index);
 
 
 
@@ -38,12 +39,10 @@ const ProductImages = () => {
 
                     images.map((image , i) => (
                         <div
-                        className='w-1/4 h-32 relative gap-4 mt-8'
+                        className='w-1/4 h-32 relative gap-4 mt-8 cursor-pointer'
                         key={image.id}
                         onClick={()=>setIndex(i)}
                         >
-
-
                             <Image src={image.url} fill alt='' className='object-cover rounded-md' sizes='50vw' />
                         </div>
                     )

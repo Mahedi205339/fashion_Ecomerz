@@ -12,7 +12,18 @@ const SinglePage = () => {
 
             {/* TXT */}
             <div className='w-full lg:w-1/2 flex flex-col gap-6'>
-                Text
+                <h1 className='text-4xl font-medium'>Product Name</h1>
+                <p className='text-gray-500'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam ipsum doloremque maxime eveniet, voluptatem incidunt sequi. Perspiciatis necessitatibus dignissimos itaque consequatur ipsum nam.
+
+                </p>
+                <div className='h-[2px] bg-gray-100'/>
+                <div className='flex items-center gap-4'>
+                    <h3 className='text-xl text-gray-500 line-through'>$56</h3>
+                    <h3 className='text-lg text-black'>$49</h3>
+                </div>
+                <div className='h-[2px] bg-gray-100'/>
+
+    
             </div>
 
         </div>
