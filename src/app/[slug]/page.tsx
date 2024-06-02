@@ -1,3 +1,5 @@
+import Add from '@/components/Add';
+import CustomizeProduct from '@/components/CustomizeProduct';
 import ProductImages from '@/components/ProductImages';
 import React from 'react';
 
@@ -23,6 +25,16 @@ const SinglePage = () => {
                 </div>
                 <div className='h-[2px] bg-gray-100'/>
 
+                <CustomizeProduct/>
+                <Add/>
+              <div>
+                <h4>Title</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos inventore tenetur ut saepe non unde perferendis fuga deserunt, nesciunt quasi dolorum, repellendus ad.</p>
+              </div>
+
+              <div className=''>
+
+              </div>
     
             </div>
 
